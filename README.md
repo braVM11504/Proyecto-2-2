@@ -16,11 +16,12 @@ Este proyecto implementa un sistema de control y monitoreo de parqueaderos utili
 
 # 2. ARCHIVOS DEL PROYECTO
 
-- {interfaz}(): Interfaz gráfica diseñada en Qt Designer.
-- {parking_client}(): Módulo cliente que se comunica con el servidor.
-- {qrscan}(): Hilo que escanea el codigo QR 
-- {parking_server}(): Servidor del programa 
-- {users}(): Modulo de las funciones necesarias para el corecto funcionamiento del codigo
+- [`interfaz`](https://github.com/braVM11504/Proyecto-2-2/blob/main/interfaz.py): Interfaz gráfica diseñada en Qt Designer.
+- [`parking_client`](https://github.com/braVM11504/Proyecto-2-2/blob/main/parking_client.py): Módulo cliente que se comunica con el servidor.
+- [`qrscan`](https://github.com/braVM11504/Proyecto-2-2/blob/main/qrscan.py): Hilo que escanea el codigo QR 
+- [`parking_server`](https://github.com/braVM11504/Proyecto-2-2/blob/main/parking_server.py): Servidor del programa 
+- [`users`](https://github.com/braVM11504/Proyecto-2-2/blob/main/users.py): Modulo de las funciones necesarias para el corecto funcionamiento del codigo
+- [`newWindow`](https://github.com/braVM11504/Proyecto-2-2/blob/main/new_window.py): Este archivo define una ventana en PyQt5 que permite visualizar una imagen cargada desde un arreglo de bytes
 
 
 # 3. RESULTADOS Y ESTADO ACTUAL
